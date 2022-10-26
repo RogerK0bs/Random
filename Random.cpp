@@ -1,9 +1,9 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <time.h>
 using namespace std;
 void sort(int mass[], int a)
 {
-    cout << "\nÑîðòèðîâêà ìàññèâà â ïîðÿäêå âîçðàñòàíèÿ:\n";
+    cout << "\nÐ¡Ð¾Ñ€Ñ‚Ð¸Ñ€Ð¾Ð²ÐºÐ° Ð¼Ð°ÑÑÐ¸Ð²Ð° Ð² Ð¿Ð¾Ñ€ÑÐ´ÐºÐµ Ð²Ð¾Ð·Ñ€Ð°ÑÑ‚Ð°Ð½Ð¸Ñ:\n";
     for (size_t i = 0; i < a; i++)
     {
         for (size_t j = 0; j < a - 1; j++)
@@ -34,11 +34,11 @@ int main()
     setlocale(LC_ALL, "");
     int* arr;
     int N;
-    cout << "Ââåäèòå äëèíó ìàññèâà = "; cin >> N;
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð´Ð»Ð¸Ð½Ñƒ Ð¼Ð°ÑÑÐ¸Ð²Ð° = "; cin >> N;
     arr = new int[N];
     int min_dip, max_dip;
-    cout << "\nÂâåäèòå ìèíèìàëüíûé äèàïîçîí = "; cin >> min_dip;
-    cout << "\nÂâåäèòå ìàêñèìàëüíûé äèàïîçîí = "; cin >> max_dip;
+    cout << "\nÐ’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¼Ð¸Ð½Ð¸Ð¼Ð°Ð»ÑŒÐ½Ñ‹Ð¹ Ð´Ð¸Ð°Ð¿Ð¾Ð·Ð¾Ð½ = "; cin >> min_dip;
+    cout << "\nÐ’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¼Ð°ÐºÑÐ¸Ð¼Ð°Ð»ÑŒÐ½Ñ‹Ð¹ Ð´Ð¸Ð°Ð¿Ð¾Ð·Ð¾Ð½ = "; cin >> max_dip;
     const int n = 5;
     for (size_t i = 0; i < N; i++)
     {
